@@ -1,0 +1,17 @@
+{
+  "name": "wa-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp AI Bot with OpenClaw",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "axios": "^1.15.0",
+    "express": "^5.2.1",
+    "pino": "^10.3.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
